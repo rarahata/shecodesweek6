@@ -4,7 +4,6 @@ function showTemperature(response) {
     shownTemp.innerHTML = Math.round(response.data.main.temp);
   }
   
-  gi
   function search(event) {
     event.preventDefault();
     let cityInput = document.querySelector("#city-Input");
